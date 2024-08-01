@@ -1,0 +1,128 @@
+body {
+	padding: 0;
+	font-family: "Franklin Gothic", sans-serif;
+}
+
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+}
+
+#logo{
+	width: 300px;
+	float: left;
+}
+
+#logo_gambar{
+	width: 120px;
+}
+
+#menu{
+	width: 900px;
+	float: left;
+	text-align: center;
+}
+#menu a {
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+.content1{
+	text-align: center;
+	display: block;
+	overflow: hidden;
+	margin-top: 30px;
+	font-size: 18px;
+}
+.judul{
+	color: red;
+}
+iframe{
+	border-radius: 10px;
+}
+.subcontent1{
+	float: left;
+}
+.subcontent2{
+	float: left;
+	padding-left: 30px;
+}
+#content_menu{
+	background: #f8f9fa;
+
+}
+
+#cm_menus{
+	background: red;
+	overflow: hidden;
+	display: block;
+	list-style: none;
+}
+
+#cm_menus li{
+	float: left;
+	list-style: none;
+	padding: 0 10px;
+}
+
+#cm_menu_wrapper{
+	text-align: center;
+	padding: 20px;
+}
+
+.cm_menu_item{
+	text-decoration: none;
+	color: black;
+	padding: 10px 20px;
+	display: inline-block;
+	border-radius: 20px;
+	transition-duration: 1s;
+}
+
+.cm_menu_item:hover{
+	background: #f04145;
+	color: white;
+}
+
+.judul1{
+    text-align: center;
+}
+
+.ut_wrapper{
+	overflow: hidden;
+	display: block;
+}
+
+.utp_box{
+/*	background: grey;*/
+	float: left;
+	width: 370px;
+	margin: 15px;
+/*	border: 1px solid #f04145;*/
+}
+.utp_box img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.utp_box_tanggal{
+	font-size: 14px;
+	color: hsla(0,0%,45.9%,.85);
+	margin: 5px 0;
+}
+
+.utp_box_judul{
+	font-weight: bold;
+	font-size: 20px;
+    color: black;
+}
+
+.utp_box_teks{
+	color: hsla(0,0%,45.9%,1);
+	padding: 5px 0;
+	font-size: 14px;
+	line-height: 20px;
+}
