@@ -1,0 +1,273 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Open Sans, arial, Helvetica Neue, Helvetica;
+}
+
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+}
+
+#logo{
+	width: 300px;
+	float: left;
+}
+
+#logo_gambar{
+	width: 120px;
+}
+
+#menu{
+    width: 900px;
+    float: left;
+    text-align: center;
+}
+#menu a {
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+    padding-left: 30px;
+}
+
+#slider{
+	background: black;
+}
+
+#slider_gambar{
+	height: 600px;
+}
+
+#content1{
+	background: #f8f9fa;
+}
+
+#content_title{
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 60px;
+}
+
+#content_body{
+	display: block;
+	overflow: hidden;
+}
+
+.cb_box{
+	width: 360px;
+	background: white;
+	float: left;
+	margin: 20px;
+}
+
+.cbb_image{
+	text-align: center;
+	height: 170px;
+}
+
+.cbbi_gambar{
+	width: 180px;
+	margin-top: 50px;
+	transition-duration: 2s;
+/*	transition-property: all;*/
+}
+
+.cbbi_gambar:hover{
+	width: 230px;
+}
+
+.cbb_title{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: #f04145;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.cbb_text{
+	padding: 20px;
+	text-align: center;
+	color: hsla(0,0%,45.9%,.85);
+}
+
+#content2{
+	background: white;
+}
+
+#karir_body{
+	float: left;
+	width: 540px;
+	padding: 30px;
+}
+
+#kb_title{
+	font-size: 45px;
+	margin-top: 100px;
+}
+
+#kb_text{
+	color: hsla(0,0%,45.9%,.85);
+	margin-bottom: 50px;
+}
+
+#karir_image{
+	float: left;
+	width: 600px;
+}
+
+#karir_image_gambar{
+	height: 500px;
+}
+
+#content3{
+	background: #f8f9fa;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.tombol{
+	background: #f04145;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 20px;
+	border-radius: 50px;
+	color: white;
+}
+
+#hubungi_left{
+	float: left;
+	width: 800px;
+}
+#hubungi_right{
+	float: left;
+	width: 400px;
+}
+#hl_title{
+	font-size: 45px;
+
+}
+
+#hl_text{
+	color: hsla(0,0%,45.9%,.85);
+	width: 550px;
+}
+
+#game_support_box{
+	background: white;
+	padding: 30px;
+	overflow: hidden;
+	display: block;
+	margin-top: 20px;
+}
+
+#gsb_title{
+	margin: 0;
+	padding: 0;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+#gsb_link{
+	color: #f04145;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#gsb_left{
+	float: left;
+	width: 200px;
+}
+#gsb_right{
+	float: left;
+	width: 140px;
+	text-align: right;
+}
+
+#gsbr_gambar{
+	width: 100px;
+}
+
+#content_menu{
+	background: #f8f9fa;
+
+}
+
+#cm_menus{
+	background: red;
+	overflow: hidden;
+	display: block;
+	list-style: none;
+}
+
+#cm_menus li{
+	float: left;
+	list-style: none;
+	padding: 0 10px;
+}
+
+#cm_menu_wrapper{
+	text-align: center;
+	padding: 20px;
+}
+
+.cm_menu_item{
+	text-decoration: none;
+	color: black;
+	padding: 10px 20px;
+/*	background: red;*/
+	display: inline-block;
+	border-radius: 20px;
+	transition-duration: 1s;
+}
+
+.cm_menu_item:hover{
+	background: #f04145;
+	color: white;
+}
+
+.judul1{
+	text-align: center;
+}
+
+.ut_wrapper{
+	overflow: hidden;
+	display: block;
+}
+
+.utp_box{
+/*	background: grey;*/
+	float: left;
+	width: 370px;
+	margin: 15px;
+/*	border: 1px solid #f04145;*/
+	height: 400px;
+	overflow: hidden;
+}
+
+.utp_box img{
+	width: 100%;
+}
+
+.utp_box_tanggal{
+	font-size: 14px;
+	color: hsla(0,0%,45.9%,.85);
+	margin: 5px 0;
+}
+
+.utp_box_judul{
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+.utp_box_teks{
+	color: hsla(0,0%,45.9%,1);
+	padding: 5px 0;
+	font-size: 14px;
+	line-height: 20px;
+}
