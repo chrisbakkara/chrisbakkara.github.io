@@ -233,6 +233,23 @@ iframe{
 	color: white;
 }
 
+.motivation{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.motiv-title{
+	text-align: center;
+}
+.motivation_box{
+	margin: 0 auto;
+	background: rgb(175, 169, 169);
+	width:300px;
+	font-size: 22px;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+
 /*Footer*/
 
 a {
